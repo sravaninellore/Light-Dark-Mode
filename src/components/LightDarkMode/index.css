@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.light-dark-mode-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.light-mode {
+  background-color: #ffffff;
+}
+
+.mode-toggle-button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mode-toggle-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
